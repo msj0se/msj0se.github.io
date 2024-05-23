@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #395144;
+    background-color: #f2f2f2;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #5F6F52;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Bienvenida {
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.8);
+    color: #395144;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.Bienvenida h1 {
+    padding: 10px;
+    margin: 0;
+}
+
+.Bienvenida h3 {
+    margin: 10px 0;
+    opacity: 0.7;
+}
+
+.Imagen {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 600px;
+}
+
+.Imagen img {
+    width: 100%;
+}
+
+.Bienvenida {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+}
+
+#Conocenos {
+    text-align: center;
+}
+
+#Conocenos img {
+    width: 60px;
+    padding: 30px;
+    display: block;
+    margin: auto;
+}
+
+#Conocenos h2 {
+    color: #5F6F52;
+    text-align: center;
+}
+
+#Plantas h2 {
+    color: #5F6F52;
+}
+
+#Plantas h4 {
+    color: #5F6F52;
+}
+
+#Plantas {
+    text-align: center;
+}
+
+.Imagenes {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Imagenes img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.Imagenes img:hover {
+    opacity: 1;
+}
+
+.Imagenes h4,
+.Imagenes h5 {
+    margin: 5px 0;
+}
+
+#Formulario h2 {
+    color: #5F6F52;
+}
+
+#Formulario {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form {
+    max-width: 90%;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 3px solid #5F6F52;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #395144;
+    ;
+    color: #ddd;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #395144;
+    color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
